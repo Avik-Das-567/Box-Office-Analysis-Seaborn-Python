@@ -97,8 +97,8 @@ The dataset is approached as a **regression problem**, where the objective is to
 - **WordCloud** – text visualization
 
 ## What This Project Demonstrates
-- Performing end-to-end exploratory data analysis on real-world datasets  
-- Handling skewed distributions using log transformations  
-- Engineering features from both structured and unstructured (text) data  
-- Applying text vectorization techniques for regression modeling  
-- Interpreting model outputs using ELI5  
+- Performing end-to-end exploratory data analysis on real-world datasets.
+- Handling skewed distributions using log transformations.
+- Engineering features from both structured and unstructured (text) data.
+- Applying text vectorization techniques for regression modeling.
+- Interpreting model outputs using ELI5.
