@@ -2,13 +2,12 @@
 
 This project performs **exploratory data analysis (EDA)** on the TMDB Box Office dataset using Python. The goal is to uncover patterns and relationships between movie metadata (such as budget, language, and textual features) and **box office revenue**.
 
-Using powerful visualization and data analysis libraries, this project demonstrates how to transform raw movie data into meaningful insights.
+It combines **statistical visualization**, **feature engineering**, and **text analysis** to transform raw movie data into meaningful insights.
 
 ## Dataset
-
-**`train.csv`** → Training dataset with revenue labels
-
-**`test.csv`** → Test dataset for prediction tasks
+**Files:**
+- **`train.csv`** → Training dataset with revenue labels
+- **`test.csv`** → Test dataset for prediction tasks
 
 **Source:** TMDB Box Office Prediction Dataset (Kaggle)
 
@@ -81,7 +80,7 @@ The dataset is treated as a **regression problem**, where the objective is to un
 - Highlighted key terms contributing positively/negatively to predictions
 
 ## Key Insights
-- Revenue data is **highly skewed**, requiring log transformation for analysis.
+- Revenue distribution is **highly skewed**, requiring log transformation for analysis.
 - Budget shows a **positive correlation** with revenue after scaling.
 - Movies with official homepages tend to have **higher median revenues**.
 - Language influences revenue distribution, but not always as expected.
