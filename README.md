@@ -1,6 +1,8 @@
 # Analyze Box Office Data with Seaborn and Python
 
-This project performs **exploratory data analysis (EDA)** on the TMDB Box Office dataset using Python. The goal is to uncover patterns and relationships between movie metadata (such as budget, language, and textual features) and **box office revenue**. The project combines **statistical visualization**, **feature engineering**, and **text analysis** to transform raw movie data into meaningful insights.
+This project performs **exploratory data analysis (EDA)** on the TMDB Box Office dataset using Python. The goal is to uncover relationships between movie metadata (such as budget, language, and text-based features) and **box office revenue**.
+
+The project combines **statistical visualization**, **feature engineering**, and **text analysis** to transform raw movie data into meaningful insights. It highlights how financial, linguistic, and textual attributes influence movie revenue, demonstrating how data transformations reveal patterns in real-world datasets.
 
 ## Dataset
 **Files:**
@@ -21,7 +23,7 @@ This project performs **exploratory data analysis (EDA)** on the TMDB Box Office
 - Homepage presence
 - Release and production metadata
 
-The dataset is treated as a **regression problem**, where the objective is to understand and eventually predict movie revenue.
+The dataset is approached as a **regression problem**, where the objective is to understand and eventually predict movie revenue.
 
 ## Project Workflow
 
@@ -94,9 +96,9 @@ The dataset is treated as a **regression problem**, where the objective is to un
 - **ELI5** – model interpretability
 - **WordCloud** – text visualization
 
-## Highlights
-- Strong use of **Seaborn** for **statistical visualization**.
-- Combination of **numerical + categorical + text analysis**.
-- Integration of **model interpretability (ELI5)**.
-- Clear demonstration of **feature engineering techniques**.
-- Practical workflow bridging **EDA → feature analysis → modeling**.
+## What This Project Demonstrates
+- Performing end-to-end exploratory data analysis on real-world datasets  
+- Handling skewed distributions using log transformations  
+- Engineering features from both structured and unstructured (text) data  
+- Applying text vectorization techniques for regression modeling  
+- Interpreting model outputs using ELI5  
