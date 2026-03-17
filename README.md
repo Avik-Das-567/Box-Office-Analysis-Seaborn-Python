@@ -1,8 +1,6 @@
 # Analyze Box Office Data with Seaborn and Python
 
-This project performs **exploratory data analysis (EDA)** on the TMDB Box Office dataset using Python. The goal is to uncover patterns and relationships between movie metadata (such as budget, language, and textual features) and **box office revenue**.
-
-It combines **statistical visualization**, **feature engineering**, and **text analysis** to transform raw movie data into meaningful insights.
+This project performs **exploratory data analysis (EDA)** on the TMDB Box Office dataset using Python. The goal is to uncover patterns and relationships between movie metadata (such as budget, language, and textual features) and **box office revenue**. The project combines **statistical visualization**, **feature engineering**, and **text analysis** to transform raw movie data into meaningful insights.
 
 ## Dataset
 **Files:**
